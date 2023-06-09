@@ -11,6 +11,18 @@ public class Main {
         //Print in console the 3rd item of carBrands array
         System.out.println(carBrands[2]);
         // -Declare an empty array of integers called primeNumbers with a predefined size of 6 items
+        //Method 1:
+        ArrayList<Integer> primesNumbers = new ArrayList<>(6);
+        primesNumbers.add(2);
+        primesNumbers.add(3);
+        primesNumbers.add(5);
+        primesNumbers.add(7);
+        primesNumbers.add(11);
+        primesNumbers.add(13);
+
+        System.out.println(primesNumbers);
+
+        //Method 2:
         int[] primeNumbers = new int[6];
         //Iinsert one by one the values of the first 6 prime numbers, populating primeNumbers array
         primeNumbers[0] = 2;
