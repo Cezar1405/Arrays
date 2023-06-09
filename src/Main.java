@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,8 +20,11 @@ public class Main {
         primeNumbers[4] = 11;
         primeNumbers[5] = 13;
         // -Print in console all the content of the already populated primeNumbers array
+        System.out.println(Arrays.toString(primeNumbers));
+        /*
         for(int i = 0; i < primeNumbers.length; i++){
             System.out.printf(primeNumbers[i]+ " ");
         }
+         */
     }
 }
